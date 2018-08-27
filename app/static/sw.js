@@ -8,7 +8,7 @@ if (workbox) {
   workbox.precaching.precacheAndRoute([
     {
       "url": "/",
-      "revision": "1.0.2"
+      "revision": "1.0.3"
     }
   ]);
 
