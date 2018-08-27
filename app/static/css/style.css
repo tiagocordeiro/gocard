@@ -136,6 +136,12 @@ a:hover {
   color: var(--secondary-text-color);
 }
 
+.gocards {
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+}
+
 @media screen and (min-width: 800px) {
   main {
     max-width: 800px;
