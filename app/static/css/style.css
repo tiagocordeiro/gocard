@@ -136,15 +136,25 @@ a:hover {
   color: var(--secondary-text-color);
 }
 
-gocards {
+#gocards-3c {
     -webkit-column-count: 3; /* Chrome, Safari, Opera */
     -moz-column-count: 3; /* Firefox */
     column-count: 3;
-
 }
 
-gocards p {
+#gocards-2c {
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+}
+
+#gocards-2c p, #gocards-3c p {
   text-align: center;
+}
+
+#gocards-2c img, #gocards-3c img {
+  height: auto;
+  max-width: 84px;
 }
 
 @media screen and (min-width: 800px) {

@@ -2,7 +2,7 @@
 {% block main %}
 <article>
   <header>
-    <img src="{{ url_for('static', filename='images/flasks.jpg') }}" alt="">
+    <img src="{{ url_for('static', filename='images/flasks.jpg') }}" alt="GoCard">
   </header>
   <main>
     <h2>GoCard PWA</h2>
@@ -12,11 +12,52 @@
       a Model-Template-Controller perspective, which I
       find clear enough for my current projects.</p>
 
-    <div class="gocards">
-      <p>YouTube</p>
-      <p>Facebook</p>
-      <p>WhatsApp</p>
+    <div id="gocards-2c">
+      <p>
+        <img src="{{ url_for('static', filename='images/whatsapp.png') }}" alt="WhatsApp">
+        <br>
+        WhatsApp
+      </p>
+      <p>
+        <img src="{{ url_for('static', filename='images/whatsapp.png') }}" alt="WhatsApp">
+        <br>
+        WhatsApp
+      </p>
     </div>
+
+    <div id="gocards-2c">
+      <p>
+        <img src="{{ url_for('static', filename='images/whatsapp.png') }}" alt="WhatsApp">
+        <br>
+        WhatsApp
+      </p>
+      <p>
+        <img src="{{ url_for('static', filename='images/whatsapp.png') }}" alt="WhatsApp">
+        <br>
+        WhatsApp
+      </p>
+    </div>
+
+    <div id="gocards-3c">
+      <p>
+        <img src="{{ url_for('static', filename='images/whatsapp.png') }}" alt="WhatsApp">
+        <br>
+        WhatsApp
+      </p>
+      <p>
+        <img src="{{ url_for('static', filename='images/whatsapp.png') }}" alt="WhatsApp">
+        <br>
+        WhatsApp
+      </p>
+      <p>
+        <img src="{{ url_for('static', filename='images/whatsapp.png') }}" alt="WhatsApp">
+        <br>
+        WhatsApp
+      </p>
+    </div>
+
+
+
   </main>
   <footer>
     <button id="btnAdd">Install App</button>
