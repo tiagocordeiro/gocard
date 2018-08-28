@@ -1,8 +1,10 @@
 {% extends "base.html" %}
 {% block body %}
+{% block titlehead %}
 <header>
   <h1><a href="/">{{ title }}</a></h1>
 </header>
+{% endblock %}
 
 <main>
   {% block main %}{% endblock %}

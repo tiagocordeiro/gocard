@@ -1,66 +1,74 @@
 {% extends "layout.html" %}
+{% block titlehead %}{% endblock %}
 {% block main %}
 <article>
   <header>
-    <img src="{{ url_for('static', filename='images/flasks.jpg') }}" alt="GoCard">
+    <img src="{{ url_for('static', filename='images/telasbanner-80.jpg') }}" alt="GoCard Banner">
   </header>
   <main>
-    <h2>GoCard PWA</h2>
-    <span>A progressive webapp template</span>
-    <p>Flask PWA is supposed to be a goto template when
-      I start a new Flask project. It is constructed on
-      a Model-Template-Controller perspective, which I
-      find clear enough for my current projects.</p>
-
-    <div id="gocards-2c">
-      <p>
-        <img src="{{ url_for('static', filename='images/whatsapp.png') }}" alt="WhatsApp">
-        <br>
-        WhatsApp
-      </p>
-      <p>
-        <img src="{{ url_for('static', filename='images/whatsapp.png') }}" alt="WhatsApp">
-        <br>
-        WhatsApp
-      </p>
-    </div>
-
-    <div id="gocards-2c">
-      <p>
-        <img src="{{ url_for('static', filename='images/whatsapp.png') }}" alt="WhatsApp">
-        <br>
-        WhatsApp
-      </p>
-      <p>
-        <img src="{{ url_for('static', filename='images/whatsapp.png') }}" alt="WhatsApp">
-        <br>
-        WhatsApp
-      </p>
-    </div>
-
+    <h3>Fale Conosco</h3>
     <div id="gocards-3c">
       <p>
+        <a href="#">
         <img src="{{ url_for('static', filename='images/whatsapp.png') }}" alt="WhatsApp">
         <br>
         WhatsApp
+        </a>
       </p>
       <p>
-        <img src="{{ url_for('static', filename='images/whatsapp.png') }}" alt="WhatsApp">
+        <a href="#">
+        <img src="{{ url_for('static', filename='images/messenger.png') }}" alt="Facebook">
         <br>
-        WhatsApp
+        Facebook
+        </a>
       </p>
       <p>
-        <img src="{{ url_for('static', filename='images/whatsapp.png') }}" alt="WhatsApp">
+        <a href="#">
+        <img src="{{ url_for('static', filename='images/mail.png') }}" alt="Email">
         <br>
-        WhatsApp
+        Email
+        </a>
       </p>
     </div>
 
+    <div id="gocards-2c">
+      <p>
+        <a href="#">
+        <img src="{{ url_for('static', filename='images/phone.png') }}" alt="Telefone">
+        <br>
+        Ligar
+        </a>
+      </p>
+      <p>
+        <a href="#">
+        <img src="{{ url_for('static', filename='images/location.png') }}" alt="Endereço">
+        <br>
+        Endereço
+        </a>
+      </p>
+    </div>
 
+    <h3>Em nosso site</h3>
+    <div id="gocards-2c">
+      <p>
+        <a href="#">
+        <img src="{{ url_for('static', filename='images/produtos.png') }}" alt="Produtos">
+        <br>
+        Produtos
+        </a>
+      </p>
+      <p>
+        <a href="#">
+        <img src="{{ url_for('static', filename='images/orcamento.png') }}" alt="Orçamento">
+        <br>
+        Orçamento
+        </a>
+      </p>
+    </div>
 
   </main>
   <footer>
-    <button id="btnAdd">Install App</button>
+    <button id="btnAdd">Instalar App</button>
   </footer>
 </article>
 {% endblock %}
